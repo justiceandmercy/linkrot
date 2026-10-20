@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linkrot"
+version = "0.1.0"
+description = "Scan Markdown documentation for broken internal and external links."
+requires-python = ">=3.9"
+
+[project.scripts]
+linkrot = "linkrot.cli:main"
